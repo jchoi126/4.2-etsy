@@ -1,0 +1,83 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimal-ui">
+    <title>4 2 etsy</title>
+    <link rel="stylesheet" href="css/app.css">
+  </head>
+  <body>
+    <div >
+      <div class="col-md-12">
+        <header class="row top-bottom-margin">
+        <!-- Logo and the search bar -->
+          <div id="searchbardiv">
+            <img id="logo" src="/dist/images/logo.png" alt="ETSY Logo">
+          </div>
+          <div class="input-group searchBar">
+            <input type="text" class="form-control" placeholder="Search for...">
+              <span class="input-group-btn">
+                <button class="btn btn-default searchbtn" type="button">Search</button>
+              </span>
+          </div>
+        </header>
+        <div class="col-md-12 top-nav row">
+          <span class="nav-bar">Clothing &amp Accessories</span>
+          <span class="nav-bar">Jewelry</span>
+          <span class="nav-bar">Craft Supplies &amp Tools</span>
+          <span class="nav-bar">Weddings</span>
+          <span class="nav-bar">Entertainment</span>
+          <span class="nav-bar">Home &amp Living</span>
+          <span class="nav-bar">Kids &amp Baby</span>
+          <span class="nav-bar">Vintage</span>
+        </div>
+      </div>
+    <div class="col-md-12 body-stuff">
+      <div class="col-md-2 left-nav">
+        <div>
+          <h5>All categories</h5>
+          <p class="nav-category">Bags and Purses</p>
+          <p class="nav-category">Accessories</p>
+          <p class="nav-category">Pet Supplies</p>
+          <p class="nav-category">Craft Supplies and Tools</p>
+          <p class="nav-category">Art and Collectibles</p>
+          <p class="nav-category">Jewelry</p>
+          <p class="nav-category">Home and Living</p>
+          <p class="nav-category">Clothing</p>
+          <p class="nav-category">Toys &amp Games</p>
+          <p class="nav-category">Paper &amp Party Supplies</p>
+          <p class="nav-category">Electronics &amp Accessories</p>
+          <p class="nav-category">Bath &amp Beauty</p>
+          <p class="nav-category">Books, Movies &amp Music</p>
+          <p class="nav-category">Weddings</p>
+          <p class="nav-category">Shoes</p>
+        </div>
+      </div>
+      <div class="col-md-10 right-body">
+        <div class="container">
+          <div id="product-container" class="row">
+            <!-- <div class="col-md-6">
+              <h2>First Column</h2>
+              <img src="http://unsplash.it/200/200" alt="" />
+            </div>
+            <div class="col-md-6">Second Column</div> -->
+          </div>
+        </div>
+      </div>
+    <!-- </div> -->
+</div>
+    <script id="tile-list" type="text/x-handlebars-template">
+      <div class="col-md-3">
+        <div class="tile-style">
+          <img class="img-style" id="image-tile" src="{{Images.0.url_170x135}}" alt="image" />
+          <div class="store-style">
+            <p id="shop-title">{{title}}</p>
+            <span id="shop-id"> {{Shop.shop_name}}</span>
+            <span id="shop-price">{{price}}</span>
+          </div>
+        </div>
+      </div>
+    </script>
+    <script src="js/bundle.js"></script>
+  </body>
+</html>
