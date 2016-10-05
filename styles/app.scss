@@ -12,6 +12,103 @@ $icon-font-path: '../../node_modules/bootstrap-sass/assets/fonts/bootstrap/';
   box-sizing: border-box;
 }
 
+.left-nav{
+  background-color: white;
+}
+
+.body-stuff{
+  padding-top: 70px;
+  background-color: #F5F5F1;
+}
+
+.top-nav{
+  display: flex;
+  border-top: 1px solid #E1E3DF;
+  border-bottom: 1px solid #E1E3DF;
+}
+
+.nav-category{
+  padding-left: 15px;
+  color: #0192BE;
+}
+
+.nav-bar{
+  padding: 15px;
+  color: #837777;
+}
+
 img {
   max-width: 100%;
+}
+
+#shop-title{
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  margin: 0;
+}
+
+.top-bottom-margin{
+  margin-bottom: 13px;
+}
+
+#shop-price{
+  float: right;
+}
+
+#image-tile{
+  height: 200px;
+}
+
+#logo{
+  width: auto;
+  height: 50px;
+  display: flex;
+  margin-left: 22px;
+}
+
+.searchBar{
+  float: left;
+  display: inline-flex;
+  margin-left: 20px;
+  margin-top: 6px;
+}
+
+header{
+  display: inline-flex;
+}
+
+.searchbtn{
+  background-color: #34A8C4;
+  color: white;
+}
+
+.img-style{
+  width: 100%;
+  height: 173.5px;
+}
+
+.tile-style{
+  background-color: white;
+  border-radius: 3px;
+  margin-bottom: 27px;
+  // text-align: center;
+  border: 1px solid  #CBCCC9;
+}
+
+.store-style{
+  padding: 7px;
+}
+
+#shop-title, #shop-id{
+  text-align: left;
+}
+
+#shop-id{
+  color: #9A9A9A;
+
+}
+
+#shop-price{
+  color: #78C042;
 }
