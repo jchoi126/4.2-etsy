@@ -1,6 +1,6 @@
-## 4.2 etsy
+# 4.2 etsy
 
-#Technologies:
+##Technologies:
 HTML5 SCSS Bootstrap
 
 Implemented template formatting from the etsy api.
